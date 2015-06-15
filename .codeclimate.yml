@@ -16,7 +16,7 @@ languages:
 exclude_paths:
 - bower_components/*
 - node_modules/*
-- **/*.tests.js
+- "**/*.tests.js"
 - .config/*
 - docs/*
 - logs/*

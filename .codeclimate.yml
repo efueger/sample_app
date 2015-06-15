@@ -1,28 +1,22 @@
-# Remove any languages you don't want analyzed.
-# languages:
-#    Ruby: true
-#    JavaScript: true
-#    Python: true
-#    PHP: true
-# For all languages, we support a standard set of Glob patterns.
-# exclude_paths:
-# - app/helpers/users_helper.php # Exclude a specific file
-# - app/controllers/* # Exclude all contents of a folder (including all subfolders)
-# - app/controllers/*.py # Exclude specific files type within a folder/subfolders
-# - lib/**/*.rb # Recursively ignore all files ending in .rb
-
-# Save as .codeclimate.yml (note leading .) in project root directory
+ # Remove any languages you don't want analyzed.
+ # languages:
+ #    Ruby: true
+ #    JavaScript: true
+ #    Python: true
+ #    PHP: true
+ # For all languages, we support a standard set of Glob patterns.
+ # exclude_paths:
+ # - app/helpers/users_helper.php # Exclude a specific file
+ # - app/controllers/* # Exclude all contents of a folder (including all subfolders)
+ # - app/controllers/*.py # Exclude specific files type within a folder/subfolders
+ # - lib/**/*.rb # Recursively ignore all files ending in .rb
+ 
 languages:
   JavaScript: true
 exclude_paths:
-  - "Gruntfile.js"
-  - "bower_components/*"
-  - "custom-typings/*"
-  - "dist/*"
-  - "external_component_source/*"
-  - "node_modules/*"
-  - "typescript-patches/*"
-  - "typings/*"
-  - "app/app-typings/*"
-  - "app/assets/*"
-  - "app/config/*"
+ - bower_components/*
+ - node_modules/*
+ - "**/*.tests.js"
+ - .config/*
+ - docs/*
+ - logs/*

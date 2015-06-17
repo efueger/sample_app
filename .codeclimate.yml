@@ -28,4 +28,4 @@ exclude_paths:
   - "sites/modules/contrib/*"
   - "sql/*"
   - "themes/*"
-  - "javascripts/*"
+  - "/javascripts/*"

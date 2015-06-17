@@ -11,12 +11,20 @@
  # - app/controllers/*.py # Exclude specific files type within a folder/subfolders
  # - lib/**/*.rb # Recursively ignore all files ending in .rb
  
+# Save as .codeclimate.yml (note leading .) in project root directory
 languages:
   JavaScript: true
+  PHP: true
 exclude_paths:
- - bower_components/*
- - node_modules/*
- - "**/*.tests.js"
- - .config/*
- - docs/*
- - logs/*
+  - "cache/*"
+  - "conf/*"
+  - "includes/*"
+  - "misc/*"
+  - "modules/*"
+  - "profiles/*"
+  - "scripts/*"
+  - "sites/default/*"
+  - "sites/libraries/*"
+  - "sites/modules/contrib/*"
+  - "sql/*"
+  - "themes/*"

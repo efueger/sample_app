@@ -18,7 +18,7 @@ languages:
   Python: false
 exclude_paths:
  - "**/deps/**",
- -  "**/node_modules/**",
+ -  "**/node_modules/**"
  # -  "**/vendor/**",
  # -  "**/**-min-**",
  # -  "**/**-min.**",

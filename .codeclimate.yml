@@ -17,8 +17,8 @@ languages:
   PHP: false
   Python: false
 exclude_paths:
- - "**/deps/**"
- # -  "**/node_modules/**",
+ - "**/deps/**",
+ -  "**/node_modules/**",
  # -  "**/vendor/**",
  # -  "**/**-min-**",
  # -  "**/**-min.**",

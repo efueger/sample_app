@@ -16,7 +16,7 @@ languages:
   JavaScript: true
   PHP: false
   Python: false
-# exclude_paths:
+exclude_paths:
   - "**/deps/**",
   -  "**/node_modules/**",
   -  "**/vendor/**",

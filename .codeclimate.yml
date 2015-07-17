@@ -1,27 +1,50 @@
- # Remove any languages you don't want analyzed.
- # languages:
- #    Ruby: true
- #    JavaScript: true
- #    Python: true
- #    PHP: true
- # For all languages, we support a standard set of Glob patterns.
- # exclude_paths:
- # - app/helpers/users_helper.php # Exclude a specific file
- # - app/controllers/* # Exclude all contents of a folder (including all subfolders)
- # - app/controllers/*.py # Exclude specific files type within a folder/subfolders
- # - lib/**/*.rb # Recursively ignore all files ending in .rb
- 
-# Save as .codeclimate.yml (note leading .) in project root directory
-languages:
-  Ruby: true
-  JavaScript: true
-  PHP: false
-  Python: false
-exclude_paths:
-- "**/deps/**"
-- "**/node_modules/**"
-- "**/vendor/**"
-- "**/**-min-**"
-- "**/**-min.**"
-- "**/**.min.**"
+# This is a sample .codeclimate.yml configured for Engine analysis on Code
+# Climate Platform For an overview of the Code Climate Platform, see here:
+# http://docs.codeclimate.com/article/300-the-codeclimate-platform
 
+# Under the engines key, you can configure which engines will analyze your repo.
+# Each key is an engine name. For each value, you need to specify enabled: true
+# to enable the engine as well as any other engines-specific configuration.
+
+# For more details, see here:
+# http://docs.codeclimate.com/article/289-configuring-your-repository-via-codeclimate-yml#platform
+
+# For a list of all available engines, see here:
+# http://docs.codeclimate.com/article/296-engines-available-engines
+
+engines:
+# to turn on an engine, add it here and set enabled to `true`
+# to turn off an engine, set enabled to `false` or remove it
+  rubocop:
+    enabled: true
+  golint:
+    enabled: true
+  gofmt:
+    enabled: true
+  eslint:
+    enabled: true
+  csslint:
+    enabled: true
+  fixme:
+    enabled: true
+
+# Engines can analyze files and report issues on them, but you can separately
+# decide which files will receive ratings based on those issues. This is
+# specified by path patterns under the ratings key.
+
+# For more details see here:
+# http://docs.codeclimate.com/article/289-configuring-your-repository-via-codeclimate-yml#platform
+
+# ratings:
+#   paths:
+#   - app/**
+#   - lib/**
+#   - "**.rb"
+#   - "**.go"
+
+# You can globally exclude files from being analyzed by any engine using the
+# exclude_paths key.
+
+#exclude_paths:
+#- spec/**
+#- vendor/**

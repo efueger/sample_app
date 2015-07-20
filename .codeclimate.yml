@@ -27,7 +27,7 @@ ratings:
     - libraries/SME/**
     - libraries/RE/**
     - "**.css"
-    - **.js
+    - "**.js"
 exclude_paths:
   - libraries/PHPExcel/**
   - libraries/phpqrcode**

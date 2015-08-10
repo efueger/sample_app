@@ -12,20 +12,26 @@
 # For a list of all available engines, see here:
 # http://docs.codeclimate.com/article/296-engines-available-engines
 
-engines:
-# to turn on an engine, add it here and set enabled to `true`
-# to turn off an engine, set enabled to `false` or remove it
-  rubocop:
-    enabled: true
-  golint:
-    enabled: true
-  gofmt:
-    enabled: true
-  eslint:
-    enabled: true
-  csslint:
-    enabled: true
-
+# engines:
+# # to turn on an engine, add it here and set enabled to `true`
+# # to turn off an engine, set enabled to `false` or remove it
+#   rubocop:
+#     enabled: true
+#   golint:
+#     enabled: true
+#   gofmt:
+#     enabled: true
+#   eslint:
+#     enabled: true
+#   csslint:
+#     enabled: true
+languages:
+   Ruby: true
+   JavaScript: true
+   Python: true
+   PHP: true
+exclude_paths:
+- "test/*"
 
 # engines:
 #   phpcodesniffer:

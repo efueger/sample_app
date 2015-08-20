@@ -2,7 +2,7 @@ languages:
    Ruby: true
    JavaScript: true
    Python: true
-   PHP: true
+   PHP: false
 exclude_paths:
 - "test/*"
 - "app/assets/javascripts/*js"

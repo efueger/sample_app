@@ -6,3 +6,5 @@ languages:
 exclude_paths:
 - "test/*"
 - "app/assets/javascripts/*js"
+
+# test for PR

@@ -14,14 +14,9 @@
 # Save as .codeclimate.yml (note leading .) in project root directory
 languages:
   Ruby: true
-  JavaScript: true
-  PHP: false
-  Python: false
+  JavaScript: false
 exclude_paths:
-- "**/deps/**"
-- "**/node_modules/**"
-- "**/vendor/**"
-- "**/**-min-**"
-- "**/**-min.**"
-- "**/**.min.**"
+- 'app/services/doc_mail_report_service.rb'
+- 'config/initializers/bugsnag.rb'
+- 'lib/recruiter.rb'
 

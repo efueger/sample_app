@@ -6,3 +6,4 @@ languages:
 exclude_paths:
 - "test/*"
 - "app/assets/javascripts/*js"
+#this is a comment to test

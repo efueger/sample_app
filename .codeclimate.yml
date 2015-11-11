@@ -1,0 +1,22 @@
+engines:
+  bundler-audit:
+      enabled: true
+  csslint:
+    enabled: true
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  phpcodesniffer:
+    enabled: true
+  phpmd:
+    enabled: true
+  rubocop:
+      enabled: true
+ratings:
+  paths:
+  - Gemfile.lock
+
+exclude_paths:		
+- test/*		
+- app/assets/javascripts/*js

@@ -19,4 +19,4 @@ ratings:
 
 exclude_paths:		
 - "test/**/*"		
-- "app/assets/javascripts/**/*"
+- "app/**/*"

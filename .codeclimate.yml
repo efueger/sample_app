@@ -18,5 +18,5 @@ ratings:
   - Gemfile.lock
 
 exclude_paths:		
-- test/*		
-- app/assets/javascripts/*js
+- "test/**/*"		
+- "app/assets/javascripts/**/*"

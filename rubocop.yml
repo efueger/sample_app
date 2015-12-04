@@ -1,0 +1,6 @@
+AllCops:
+Exclude:
+- 'bin/*'
+- 'Rakefile'
+Lint/EndAlignment:
+Enabled: false

@@ -1,6 +1,7 @@
 AllCops:
 Exclude:
 - 'bin/*'
+- 'config/*'
 - 'Rakefile'
 Lint/EndAlignment:
 Enabled: false

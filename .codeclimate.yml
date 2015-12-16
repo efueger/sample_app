@@ -6,4 +6,4 @@ exclude_paths:
 - "app/assets/javascripts/*js"
 ratings:
   paths:
-    -app/**
+    - app/**

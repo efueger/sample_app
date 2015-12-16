@@ -1,8 +1,9 @@
-languages:
-   Ruby: true
-   JavaScript: true
-   Python: true
-   PHP: false
+engines:
+  rubocop:
+    enabled: true
 exclude_paths:
 - "test/*"
 - "app/assets/javascripts/*js"
+ratings:
+  paths:
+    -app/**

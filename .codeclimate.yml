@@ -3,7 +3,7 @@ engines:
     enabled: true
 exclude_paths:
 - "test/*"
-- "app/assets/javascripts/*js"
+- "**/assets/**/*"
 ratings:
   paths:
     - app/**

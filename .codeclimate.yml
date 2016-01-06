@@ -21,7 +21,7 @@ exclude_paths:
 - test/**/*		
 - app/**/*
 - config/**/*
-- app/**/*.spec.js
-- app/spec.js
+- **/*.spec.js
+- */.spec.js
 
 #testing

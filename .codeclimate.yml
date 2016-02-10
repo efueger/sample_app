@@ -1,9 +1,9 @@
-engines:
-  rubocop:
-    enabled: true
-exclude_paths:
-- "test/*"
-- "**/assets/**/*"
-ratings:
-  paths:
-    - app/**
+# engines:
+#   rubocop:
+#     enabled: true
+# exclude_paths:
+# - "test/*"
+# - "**/assets/**/*"
+# ratings:
+#   paths:
+#     - app/**

@@ -6,3 +6,6 @@ var hello = {
 
 var single = 'single';
 var double = "single";
+
+if (foo) {
+}

@@ -3,3 +3,5 @@ var hello = {
     console.info("Hello World")
   }
 }
+
+var single = 'single';

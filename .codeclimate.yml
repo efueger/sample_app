@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 engines:
   brakeman:
@@ -44,3 +45,16 @@ exclude_paths:
 - spec/
 - test/
 - vendor/
+=======
+engines:
+  rubocop:
+    enabled: true
+  eslint:
+    enabled: true
+exclude_paths:
+- "test/*"
+- "**/assets/**/*"
+ratings:
+  paths:
+    - app/**
+>>>>>>> c33989958ffda220cfb0db96d2e744e7c030ea8c
